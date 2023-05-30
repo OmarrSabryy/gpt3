@@ -1,0 +1,117 @@
+.gpt3__feature-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+.gpt3__feature-1_title {
+  flex: 1;
+  font-family: var(--font-family);
+  color: #fff;
+}
+.gpt3__feature-1_text {
+  flex: 2;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-text);
+}
+@media screen and (max-width: 650px) {
+  .gpt3__feature-1 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 350px) {
+  .gpt3__feature-1 {
+    flex-direction: column;
+  }
+  .gpt3__feature-1_title {
+    font-size: 12px;
+  }
+  .gpt3__feature-1_text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+.gpt3__feature-2 {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+.gpt3__feature-2_title {
+  flex: 1;
+  font-family: var(--font-family);
+  color: #fff;
+}
+.gpt3__feature-2_text {
+  flex: 2;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-text);
+  min-width: 250px;
+}
+@media screen and (max-width: 350px) {
+  .gpt3__feature-2_title {
+    font-size: 12px;
+  }
+  .gpt3__feature-2_text {
+    font-size: 12px;
+    line-height: 20px;
+    min-width: 220px;
+  }
+}
+
+.gpt3__feature-3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+.gpt3__feature-3_title {
+  flex: 1;
+  font-family: var(--font-family);
+  color: #fff;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 150px;
+}
+.gpt3__feature-3_text {
+  flex: 2;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-text);
+  max-width: 330px;
+}
+@media screen and (max-width: 850px) {
+  .gpt3__feature-3 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 350px) {
+  .gpt3__feature-3_title {
+    font-size: 12px;
+  }
+  .gpt3__feature-3_text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+.bar {
+  width: 38px;
+  height: 3px;
+  background: var(--gradient-bar);
+  margin-bottom: 0.5rem;
+}

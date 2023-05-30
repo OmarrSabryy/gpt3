@@ -1,0 +1,32 @@
+.gpt3__footerLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  color: white;
+}
+.gpt3__footerLinks h3 {
+  text-align: left;
+}
+.gpt3__footerLinks ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style: none;
+  max-width: 120px;
+  font-size: 12px;
+  line-height: 14px;
+  gap: 1.3rem;
+}
+@media screen and (max-width: 850px) {
+  .gpt3__footerLinks {
+    gap: 0.5rem;
+  }
+  .gpt3__footerLinks ul {
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 400px;
+  }
+}
